@@ -1,0 +1,32 @@
+.box1{
+	width: 200px;
+	height: 200px;
+	background: green;
+	margin-right: 50px;
+	box-shadow: 15px 15px 20px dimgrey;
+	}
+	.box2{
+	width: 200px;
+	height: 200px;
+	background: green;
+	display: flex;
+	background: red;
+	margin-right: 50px;
+	box-shadow: -15px -15px 30px dimgrey;
+	}
+	.box3{
+	width: 200px;
+	height: 200px;
+	background: green;
+	display: flex;
+	background: blue;
+	margin-right: 50px;
+	box-shadow: 15px 15px 10px dimgrey;
+	}
+	.container{
+		display: flex;
+		position: absolute;
+		top: 50px;
+		left: 50px;
+
+	}

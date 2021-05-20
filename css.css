@@ -1,0 +1,47 @@
+	.box1{
+	width: 200px;
+	height: 200px;
+	background: green;
+	border: 3px solid black;
+	display: inline-block;
+	border-radius: 10px;
+	}
+	.box2{
+	width: 200px;
+	height: 200px;
+	background: green;
+	border: 3px solid black;
+	display: inline-block;
+	background: red;
+	border-radius: 50px;
+	}
+	.box3{
+	width: 200px;
+	height: 200px;
+	background: green;
+	border: 3px solid black;
+	display: inline-block;
+	background: blue;
+	border-radius: 100px;
+	}
+	.container{
+		position: relative;
+	}
+	.text1{
+		position: absolute;
+		top: 50px;
+		left: 75px;
+		z-index: 1;
+	}
+	.text2{
+		position: absolute;
+		top: 50px;
+		left: 275px;
+		z-index: 1;
+	}
+	.text3{
+		position: absolute;
+		top: 50px;
+		left: 475px;
+		z-index: 1;
+	}
